@@ -1,0 +1,246 @@
+.banner_inferior{
+	height: 150px;
+	background: white;
+
+}
+#logo{
+	width: 160px;
+	height: 130px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.navegacion{
+	width: 100%;
+	margin:30px auto;
+	background: #545768;
+}
+
+.navegacion ul{
+	list-style: none;
+
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'Open Sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition:  all .3s;
+}
+
+/*Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility:hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: white;
+	font-family: Open Sans;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility:visible;
+	opacity: 1;
+
+}
+.antigeno .banner_antigeno img{
+	height: 700px;
+	width:100%;
+	background-image: linear-gradient(to top, rgba(161, 140, 209, 0.5) 0%, rgba(251, 194, 235, 0.5) 100%),url(img/pruebas_covid.jpg) ;
+}
+.texto_banner_antigeno{
+	position: relative;
+	bottom: 600px;
+	left: 200px;
+
+}
+.texto_banner_antigeno p{
+	color: #1ae6e4;
+	font-size: 3em;
+	text-shadow: 2px 3px 5px #E51464;
+}
+.titulo_llamativo{
+	position: relative;
+	bottom: 200px;
+	color: #476;
+	font-size: 1.5em;
+	text-align: center;
+}
+.separacion{
+	position: relative;
+	bottom: 200px;
+	height: 4px;
+	background-color: black;
+	width: 200px;
+}
+.texto{
+	position: relative;
+	bottom: 150px;
+	text-align: center;
+	color: #476;
+	font-size: 1.3em;
+}
+.resultados img{
+	width: 350px;
+	height: 500px;
+	margin-left: 50px;
+}
+.tex_doctor{
+	position: relative;
+	left: 150px;
+	bottom: 350px;
+	color: white;
+	font-size: 1.4em;
+	
+}
+.tex_doctor #boton{
+	border:1px solid white;
+	width:100px;
+	cursor: pointer;
+}
+.tex_doctor #boton:hover{
+	opacity:0.7;
+}
+.resultados .promo {
+	width: 650px;
+	height: 500px;
+	
+	position: relative;
+	left: 400px;
+	bottom: 720px;
+
+}
+.testimonio{
+	height: 100vh;
+	background-image: linear-gradient(to top, rgba(20, 140, 209, 0.5) 0%, rgba(251, 194, 235, 0.5) 100%),url(img/experience.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	bottom: 700px;
+}
+.testimonio h3{
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	padding-top: 20px;
+}
+.testimonio p{
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+.tecnologia{
+	position: relative;
+	top: -600px;
+}
+.tecnologia .titulo_llamativo_2{
+	color: #476;
+	font-size: 1.5em;
+	text-align: center
+}
+.titulo_llamativo_2{
+	
+	color: #476;
+	font-size: 1.5em;
+	text-align: center;
+}
+.separacion_2{
+	
+	height: 4px;
+	background-color: black;
+	width: 200px;
+}
+.texto_2{
+	
+	text-align: center;
+	color: #476;
+	font-size: 1.3em;
+}
+
+.galeria .foto{
+	position: relative;
+	left: 100px;
+	top:-600px;
+	margin:10px 20px;
+	box-shadow: 0 4px 8px 0 , 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: left;
+	width: 300px;
+
+}
+	.galeria img{
+		width: 100%;
+		height: auto;
+		 transition: transform 0.3s ease-in-out 0.1s;
+	}
+	.galeria img:hover{
+		border:1px solid #ff9999;
+		opacity:0.8;
+		transform: scale(0.9);
+	}
+	/*Footer*/
+.footer-links{
+	background: #2f3640;
+	color: #616161;
+	font-size: 12px;
+	padding: 35px 0;
+}
+
+.footer-container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap:10px; /*Separacion dentre columnas*/
+	align-items: flex-start;;
+	justify-content: center;
+	position: relative;
+	left:-500px; 
+}
+
+.footer-container ul{
+	margin: 0 auto;
+}
+.footer-container ul li{
+	line-height: 2.8;
+	font-size: 1.3em;
+	list-style: none;
+}
+.footer{
+	background: #2f3560;
+	color: #616161;
+	font-size: 12px;
+	padding: 20px 0;
+	text-align: center;
+	padding-bottom: 20px;
+}
+	.menu-btn{
+		display: block;
+	}
+
+	.footer-container ul li a{
+		color: white;
+
+	}
